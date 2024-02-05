@@ -1,0 +1,194 @@
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: rgb(0, 145, 255);
+    background-color: #1971c2;
+    background-color: #74c0fc;
+    background-color: #a5d8ff;
+    font-size: 2rem;
+}
+section{
+    padding-top: 8.2rem;
+}
+
+/* REUSABLE */
+.outside{
+    color: #1864ab;
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.section-heading{
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+.grid{
+    display: grid;
+}
+.grid-2-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+.text{
+    line-height: 1.7;
+}
+.flex{
+    display: flex;
+}
+.section-margin{
+    margin-bottom: 3.2rem;
+}
+
+/* NAV */
+header{
+    position: fixed;
+    width: 100vw;
+}
+nav {
+    display: flex;
+    padding: 0 3.6rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #222;
+}
+.left{
+    font-size: 2.4rem;
+    color: #a5d8ff;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    font-size: 1.6rem;
+}
+.right a:hover{
+    color: #a5d8ff;
+}
+
+/* HERO SECTION */
+.full-name{
+    color: #F0840F;
+}
+.hi {
+    font-size: 6.4rem;
+}
+.hero-section{
+    margin-bottom: 0;
+}
+.pro-img{
+    height: 35rem;
+    border-radius: 0.9rem;
+    /* border-radius: 50%; */
+    /* border: solid 0.5rem #1864ab; */
+    box-shadow: 0 0.8rem 1.6rem rgba(0,0,0,0.25);
+}
+.hero-container{
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10rem 0;
+    height: 55vh;
+}
+.pro-img-div{
+    justify-content: center;
+}
+
+/* ABOUT */
+.about-container{
+    background-color: #222;
+    padding: 2.4rem;
+    border-radius: 1.1rem;
+}
+
+
+/* EDUCATION */
+.edu-grid{
+    gap: 3.2rem;
+}
+.edu-col{
+    background-color: #191919;
+    padding: 3.2rem 4.8rem;
+    border-radius: 0.9rem;
+}
+.education-container{
+    width: fit-content;
+}
+
+/* SKILLS */
+.skill-icon{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+/* HOBBIES */
+.hobbies-div{
+    background-color: #191919;
+    padding: 3.2rem;
+    border: 1.1rem;
+    row-gap: 6.4rem;
+    border-radius: 1.1rem;
+}
+.hobbie{
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+.hobbie-icon{
+    width: 4.2rem;
+    height: 4.2rem;
+    color: #a5d8ff;
+}
+
+/* FOOTER */
+footer{
+    background-color: #191919;
+}
+.footer-flex{
+    gap: 2.4rem;
+    /* flex-direction: column; */
+}
+.footer-container{
+    padding: 3.2rem 0;
+}
+.footer-heading{
+    font-size: 2.8rem;
+    color: #ccc;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+.footer-icon{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: 1.6rem;
+    font-size: 1.4rem;
+    color: #ccc;
+}
