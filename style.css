@@ -163,6 +163,23 @@ nav {
     height: 4.2rem;
     color: #a5d8ff;
 }
+.projects{
+    background-color:#191919;
+    padding:15px 15px;
+    margin :auto ;
+    border-radius:1.1rem;
+    margin-bottom:1rem ;
+    width: 1200px;
+
+}
+.projects-list{
+    margin-left:1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.projects-list a{
+    color:white;
+}
 
 /* FOOTER */
 footer{
